@@ -26,23 +26,22 @@ Find minimum moves to reach the destination.
 ### Solution:
 
 ```python
-class Solution:
-    def racecar(self, target: int) -> int:
-        queue = deque([(0, 0, 1)])
+def racecar(target: int) -> int:
+    queue = deque([(0, 0, 1)])
+    
+    while queue:
+        moves, pos, vel = queue.popleft()
         
-        while queue:
-            moves, pos, vel = queue.popleft()
-            
-            if pos == target:
-                return moves
-            
-            # Always move forward
-            queue.append((moves + 1, pos + vel, 2 * vel))
-            
-            # Backward only if car is ahead target, or you are
-            # just in backward so you can simply hit backward
-            # again to go pos
-            if (pos + vel > target and vel > 0) or \
-               (pos + vel < target and vel < 0):
-                queue.append((moves + 1, pos, -vel//abs(vel)))
+        if pos == target:
+            return moves
+        
+        # Always move forward
+        queue.append((moves + 1, pos + vel, 2 * vel))
+        
+        # Backward only if car is ahead target, or you are
+        # just in backward so you can simply hit backward
+        # again to go pos
+        if (pos + vel > target and vel > 0) or \
+            (pos + vel < target and vel < 0):
+            queue.append((moves + 1, pos, -vel//abs(vel)))
 ```

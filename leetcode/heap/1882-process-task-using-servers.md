@@ -36,33 +36,32 @@ SC: O(m) ~> heaps
 ### Solution
 
 ```python
-class Solution:
-    def assignTasks(self, servers: List[int], tasks: List[int]) -> List[int]:
-        res = []
-        timer = 0
+def assignTasks(servers: List[int], tasks: List[int]) -> List[int]:
+    res = []
+    timer = 0
+    
+    free_server, occupied_server = [], []
+
+    for ind, load in enumerate(servers):
+        heapq.heappush(free_server, (load, ind))
+
+    for j, task_time in enumerate(tasks):
+        timer = max(timer, j)
         
-        free_server, occupied_server = [], []
+        # Extend time to a great time since we cant do anything:
+        if not free_server and occupied_server[0][0] >= timer:
+            timer = occupied_server[0][0]
+        
+        # Check if occupied first element is complete.
+        while occupied_server and occupied_server[0][0] == timer:
+            _, ind = heapq.heappop(occupied_server)
+            heapq.heappush(free_server, (servers[ind], ind))
+        
+        # Case: we need to choose a server and push the element there
+        server_load, server_ind = heapq.heappop(free_server)
+        time_taken = timer + task_time
+        heapq.heappush(occupied_server, (time_taken, server_ind))
+        res.append(server_ind)
 
-        for ind, load in enumerate(servers):
-            heapq.heappush(free_server, (load, ind))
-
-        for j, task_time in enumerate(tasks):
-            timer = max(timer, j)
-            
-            # Extend time to a great time since we cant do anything:
-            if not free_server and occupied_server[0][0] >= timer:
-                timer = occupied_server[0][0]
-            
-            # Check if occupied first element is complete.
-            while occupied_server and occupied_server[0][0] == timer:
-                _, ind = heapq.heappop(occupied_server)
-                heapq.heappush(free_server, (servers[ind], ind))
-            
-            # Case: we need to choose a server and push the element there
-            server_load, server_ind = heapq.heappop(free_server)
-            time_taken = timer + task_time
-            heapq.heappush(occupied_server, (time_taken, server_ind))
-            res.append(server_ind)
-
-        return res
+    return res
 ```

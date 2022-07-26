@@ -43,27 +43,26 @@ SC: O(n+m) ~> queue, O(n) ~> indegree and O(n*m) ~> adj matrix
 ### Solution:
 
 ```python
-class Solution:
-    def findAllRecipes(self, recipes, ingredients, supplies):
-        adj = defaultdict(list)
-        indegree = defaultdict(int)
-        
-        for i in range(len(recipes)):
-            for item in ingredients[i]:
-                adj[item].append(recipes[i])
-                indegree[recipes[i]] += 1
+def findAllRecipes(recipes, ingredients, supplies):
+    adj = defaultdict(list)
+    indegree = defaultdict(int)
     
-        possible_recipes = set()
-        queue = deque(supplies)
+    for i in range(len(recipes)):
+        for item in ingredients[i]:
+            adj[item].append(recipes[i])
+            indegree[recipes[i]] += 1
 
-        while queue:
-            recipe = queue.popleft()
-            for food_item in adj[recipe]:
-                if indegree[food_item] >= 1:
-                    indegree[food_item] -= 1
-                if indegree[food_item] == 0:
-                    queue.append(food_item)
-                    possible_recipes.add(food_item)
-        
-        return possible_recipes
+    possible_recipes = set()
+    queue = deque(supplies)
+
+    while queue:
+        recipe = queue.popleft()
+        for food_item in adj[recipe]:
+            if indegree[food_item] >= 1:
+                indegree[food_item] -= 1
+            if indegree[food_item] == 0:
+                queue.append(food_item)
+                possible_recipes.add(food_item)
+    
+    return possible_recipes
 ```

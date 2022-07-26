@@ -10,4 +10,4 @@ include: [".htaccess", ".md"]
 
 navigation:
   - name: Home 
-    link: ./
+    link: https://vaibhavvikas.ml/leetcode-solutions/

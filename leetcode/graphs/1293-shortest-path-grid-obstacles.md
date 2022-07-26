@@ -47,35 +47,34 @@ SC: O(mnk) ~> Size of visited and queue
 ### Solution
 
 ```python
-class Solution:
-    def shortestPath(self, grid: List[List[int]], k: int) -> int:
-        m, n = len(grid), len(grid[0])
-        
-        if m == 1 and n == 1:
-            return 0
-        
-        if k > m - 1 + n - 1:
-            return m - 1 + n - 1
-        
-        def is_valid(i, j):
-            return 0 <= i < m and 0 <= j < n
-        
-        queue = deque([(0, 0, k, 0)])
-        visited = set([(0, 0, k)])
-            
-        while queue:
-            i, j, elim, steps = queue.popleft()
-            
-            for x, y in [(i+1, j), (i-1, j), (i, j+1), (i, j-1)]:
-                if is_valid(x, y):
-                    if grid[x][y] == 1 and elim > 0 and (x, y, elim-1) not in visited:
-                        visited.add((x, y, elim-1))
-                        queue.append((x, y, elim-1, steps+1))
-                    if grid[x][y] == 0 and (x, y, elim) not in visited:
-                        if x == m-1 and y == n-1:
-                            return steps + 1
-                        visited.add((x, y, elim))
-                        queue.append((x, y, elim, steps+1))
+def shortestPath(grid: List[List[int]], k: int) -> int:
+    m, n = len(grid), len(grid[0])
     
-        return -1
+    if m == 1 and n == 1:
+        return 0
+    
+    if k > m - 1 + n - 1:
+        return m - 1 + n - 1
+    
+    def is_valid(i, j):
+        return 0 <= i < m and 0 <= j < n
+    
+    queue = deque([(0, 0, k, 0)])
+    visited = set([(0, 0, k)])
+        
+    while queue:
+        i, j, elim, steps = queue.popleft()
+        
+        for x, y in [(i+1, j), (i-1, j), (i, j+1), (i, j-1)]:
+            if is_valid(x, y):
+                if grid[x][y] == 1 and elim > 0 and (x, y, elim-1) not in visited:
+                    visited.add((x, y, elim-1))
+                    queue.append((x, y, elim-1, steps+1))
+                if grid[x][y] == 0 and (x, y, elim) not in visited:
+                    if x == m-1 and y == n-1:
+                        return steps + 1
+                    visited.add((x, y, elim))
+                    queue.append((x, y, elim, steps+1))
+
+    return -1
 ```

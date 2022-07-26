@@ -38,13 +38,11 @@ SC: O(n)
 
 ```python
 class StockPrice:
-
     def __init__(self):
         self.stock = {}
         self.largest = []
         self.smallest = []
         self.most_recent = -math.inf
-        
 
     def update(self, timestamp: int, price: int) -> None:
         self.stock[timestamp] = price

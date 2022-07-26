@@ -32,24 +32,23 @@ SC: O(logn) ~> Height of tree = log(n) which is the dict size
 ### Solution
 
 ```python
-class Solution:
-    def remove_leaves(self, root: TreeNode) -> list:
-        if not root:
-            return []
+def remove_leaves(root: TreeNode) -> list:
+    if not root:
+        return []
 
-        node_height = defaultdict(list)
+    node_height = defaultdict(list)
 
-        def get_heights(node):
-            if not node:
-                return -1
+    def get_heights(node):
+        if not node:
+            return -1
 
-            left = get_heights(node.left)
-            right = get_heights(node.right)
-            
-            node_height[max(left, right) + 1].append(node.val)
-            return max(left, right) + 1
+        left = get_heights(node.left)
+        right = get_heights(node.right)
+        
+        node_height[max(left, right) + 1].append(node.val)
+        return max(left, right) + 1
 
-        get_heights(root)
+    get_heights(root)
 
-        return [node_height[each] for each in node_height]
+    return [node_height[each] for each in node_height]
 ```
