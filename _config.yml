@@ -10,8 +10,10 @@ plugins:
 
 include: [".htaccess", ".md"]
 
-navigation:
-  - name: LeetCode
+platforms:
+  - name: Leetcode
+    icon: <i class="fa-solid fa-user-secret"></i>
     link: https://vaibhavvikas.ml/dsa-problems/
-  - name: General 
+  - name: General
+    icon: <i class="fa-solid fa-file-code"></i>
     link: https://vaibhavvikas.ml/dsa-problems/general.html
