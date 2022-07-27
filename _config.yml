@@ -1,5 +1,7 @@
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 color-scheme: auto
+title: DSA Problems
+description: DSA Problems and their solutions.
 
 plugins:
   - jekyll-sitemap
@@ -9,5 +11,7 @@ plugins:
 include: [".htaccess", ".md"]
 
 navigation:
-  - name: Home 
-    link: https://vaibhavvikas.ml/dsa-solutions/
+  - name: LeetCode
+    link: https://vaibhavvikas.ml/dsa-problems/
+  - name: General 
+    link: https://vaibhavvikas.ml/dsa-problems/general.html

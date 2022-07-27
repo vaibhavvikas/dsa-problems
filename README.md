@@ -23,3 +23,9 @@ Python solutions of leetcode problems that I created for revision.
 **Heap:** \
 [1882. Process task using servers](./leetcode/heap/1882-process-task-using-servers.md) \
 [2034. Max price fluctuation](./leetcode/heap/2034-max-price-fluctuation.md)
+
+
+#### General:
+
+**Dynamic Programming:** \
+[Longest Common Subsequence](./general/dynamic_programming/longest_common_subsequence.md)
