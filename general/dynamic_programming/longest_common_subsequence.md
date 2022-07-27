@@ -7,13 +7,13 @@ Given two strings, 'S' and 'T' with lengths 'M' and 'N', find the length of the 
 For a string 'str'(per se) of length K, the subsequences are the strings containing characters in the same relative order as they are present in 'str,' but not necessarily contiguous. Subsequences contain all the strings of length varying from 0 to K.
 
 Example:
-```
+```bash
 Subsequences of string "abc" are:
 ""(empty string), a, b, c, ab, bc, ac, abc.
 ```
 
 Input Format:
-```
+```bash
 The first line of input contains the string 'S' of length 'M'.
 The second line of the input contains the string 'T' of length 'N'.
 ```
@@ -24,7 +24,7 @@ Return the length of the Longest Common Subsequence.
 ```
 
 Constraints :
-```
+```python
 0 <= M <= 10 ^ 3
 0 <= N <= 10 ^ 3
 Time Limit: 1 sec
@@ -42,14 +42,14 @@ Sample Output 1 :
 ```
 
 Explanation Of The Sample Output 1:
-```
+```bash
 Both the strings contain a common subsequence 'adb',
 which is the longest common subsequence with length 3.
 ```
 
 ### Algorithm Recursion:
 
-```
+```python
 Recursion: Top Down
 Step 1: Convert problem to indexes
     Here we have two last indexes:
@@ -126,7 +126,7 @@ def lcs(s, t):
 ```
 
 ### Algorithm Tabulation:
-```
+```python
 Tabulation: Bottom Up
 Step 1: Copy the base cases:
     for that we incremented the index of dp

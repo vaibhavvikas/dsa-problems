@@ -2,9 +2,7 @@
 
 Python solutions of leetcode problems that I created for revision.
 
-### Problems
-
-#### Leetcode:
+### Leetcode:
 
 **Trees:** \
 [366. Remove Leaves](./leetcode/trees/366-remove-leaves.html) \
@@ -22,4 +20,9 @@ Python solutions of leetcode problems that I created for revision.
 
 **Heap:** \
 [1882. Process task using servers](./leetcode/heap/1882-process-task-using-servers.html) \
-[2034. Max price fluctuation](./leetcode/heap/2034-max-price-fluctuation.html)
+[2034. Max price fluctuation](./leetcode/heap/2034-max-price-fluctuation.html) \
+[2050. Parallel Courses](./leetcode/heap/2050-parallel-courses-iii.html)
+
+
+**Stack:** \
+[503. Next Greater Element](./leetcode/stack/503-next_greater_circular_array.html)
