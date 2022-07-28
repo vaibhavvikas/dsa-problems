@@ -1,6 +1,6 @@
 ## General Problems
 
-**Dynamic Programming** \
+**Dynamic Programming:** \
 [1. Longest Common Subsequence](./general/dynamic_programming/longest_common_subsequence.md) \
 [2. Print Longest Common Subsequence](./general/dynamic_programming/print_longest_common_subsequence.md) \
 [3. Longest Common Substring](./general/dynamic_programming/longest_common_subsequence.md) \
@@ -8,11 +8,13 @@
 [5. Min Insertions to make Palindromic](./general/dynamic_programming/min_insertions_to_make_string_pali.md) \
 [6. Smallest Common Supersequence](./general/dynamic_programming/smallest_common_supersequence.md)
 
+
 **Trees:** \
 [1. Boundary View](./general/trees/boundary_view.md) \
 [2. Root to Node Path](./general/trees/root_to_node.md) \
 [3. Max Path Sum](./general/trees/max_path_sum.md) \
 [4. Width of Binary Tree](./general/trees/width_of_binary_tree.md)
+
 
 **Graphs:** \
 [1. Alien Dictionary](./general/graphs/alien_dictionary.md)

@@ -19,6 +19,7 @@
 
 
 **Heap:** \
+[973, K Closest Point](./leetcode/heap/973_k_closest_point.md) \
 [1882. Process task using servers](./leetcode/heap/1882_process_task_using_servers.md) \
 [2034. Max price fluctuation](./leetcode/heap/2034_max_price_fluctuation.md) \
 [2050. Parallel Courses](./leetcode/heap/2050_parallel_courses_iii.md)
@@ -26,6 +27,20 @@
 
 **Stack:** \
 [503. Next Greater Element](./leetcode/stack/503_next_greater_circular_array.md)
+
+
+**Two Pointer:** \
+[42. Trapping Rain Water](./leetcode/two_pointers/42_trapping_rain_water.md)
+
+
+**BFS:**\
+[139. Word Break](./leetcode/bfs/139_word_break.md) \
+[140. Word Break II](./leetcode/bfs/140_word_break_ii.md) \
+[472. Concatenated Words](./leetcode/bfs/472_concatenated_words.md)
+
+
+**DFS:** \
+[79. Word Search](./leetcode/dfs/79_word_search.md)
 
 
 **Miscellaneous:** \
