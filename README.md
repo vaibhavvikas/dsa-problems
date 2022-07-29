@@ -6,6 +6,7 @@
 
 
 **Dynamic Programming:** \
+[120. Triangle](./leetcode/dynamic_programming/120_triangle.md) \
 [818. Car Problem](./leetcode/dynamic_programming/818_car_problem.md)
 
 
@@ -14,11 +15,16 @@
 [200. Number of Islands](./leetcode/graphs/200_number_of_islands.md) \
 [695. Max Area of Island](./leetcode/graphs/695-max-area-of-island.md) \
 [1293. Shortest path grid obstacles](./leetcode/graphs/1293_shortest_path_grid_obstacles.md) \
+[1579. Remove edges](./leetcode/graphs/1579_remove_edges.md) \
 [2115. All possible recipes](./leetcode/graphs/2115_all_possible_recipes.md)
 
 
+**Hash table:** \
+[554. Brick Wall](./leetcode/hash_table/554_brick_wall.md)
+
 
 **Heap:** \
+[778. Swim in rising Water](./leetcode/heap/778_swim_in_rising_water.md) \
 [973, K Closest Point](./leetcode/heap/973_k_closest_point.md) \
 [1882. Process task using servers](./leetcode/heap/1882_process_task_using_servers.md) \
 [2034. Max price fluctuation](./leetcode/heap/2034_max_price_fluctuation.md) \
