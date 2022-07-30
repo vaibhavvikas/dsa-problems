@@ -7,7 +7,8 @@
 
 **Dynamic Programming:** \
 [120. Triangle](./leetcode/dynamic_programming/120_triangle.md) \
-[818. Car Problem](./leetcode/dynamic_programming/818_car_problem.md)
+[818. Car Problem](./leetcode/dynamic_programming/818_car_problem.md) \
+[1155. Number of ways to roll dice](./leetcode/dynamic_programming/1155_ways_to_roll_dice.md)
 
 
 **Graphs:** \
@@ -20,6 +21,7 @@
 
 
 **Hash table:** \
+[30. Substring with concatenated words](./leetcode/hash_table/30_substring_with_concatenated_words.md) \
 [554. Brick Wall](./leetcode/hash_table/554_brick_wall.md)
 
 

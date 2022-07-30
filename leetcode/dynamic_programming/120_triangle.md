@@ -1,4 +1,4 @@
-120. Triangle
+## 120. Triangle
 
 Given a triangle array, return the minimum path sum from top to bottom.
 

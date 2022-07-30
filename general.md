@@ -9,6 +9,10 @@
 [6. Smallest Common Supersequence](./general/dynamic_programming/smallest_common_supersequence.md)
 
 
+**Stack:** \
+[1. Shorten Mathematical Expression](./general/stack/shorten_expr.md)
+
+
 **Trees:** \
 [1. Boundary View](./general/trees/boundary_view.md) \
 [2. Root to Node Path](./general/trees/root_to_node.md) \
