@@ -31,6 +31,13 @@
 
 
 ### Trees
+
+**Traversals:** \
+[1. Preorder](./general/trees/preorder_traversal.md) \
+[2. Inorder](./general/trees/inorder_traversal.md) \
+[3. Postorder](./general/trees/postorder_traversal.md)
+
+**General:** \
 [1. Boundary View](./general/trees/boundary_view.md) \
 [2. Root to Node Path](./general/trees/root_to_node.md) \
 [3. Max Path Sum](./general/trees/max_path_sum.md) \
