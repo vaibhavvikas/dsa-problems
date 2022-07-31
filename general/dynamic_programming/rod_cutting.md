@@ -19,6 +19,12 @@ At any index:
 the rod length is ind + 1
 
 at index == 0, rod_length == 1
+
+Therefore,
+we have two options
+
+take only if the ind + 1 <= rem_len
+than we can: 
 ```
 ```bash
 TC: (2^n) ~> Exponential 
