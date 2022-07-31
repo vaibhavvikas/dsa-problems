@@ -24,7 +24,6 @@ Therefore,
 we have two options
 
 take only if the ind + 1 <= rem_len
-than we can: 
 ```
 ```bash
 TC: (2^n) ~> Exponential 
