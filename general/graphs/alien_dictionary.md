@@ -14,11 +14,12 @@ lets say we have "baa" and "abcd"
 means "b" comes before "a"
 so we have "b" -> "a"
 
-Similary form all edges and return topo sort
+Now for each char in graph, we use dfs.
+to check cycle.
 ```
 ```
-TC: O(v*e)
-SC: O(v*e) ~> graph and o(v) ~> Visited arr
+TC: O(n*k)
+SC: O(n+k) ~> graph and o(k) ~> Visited arr
 ```
 
 ### Solution
@@ -58,4 +59,98 @@ def findOrder(self, words, N, K):
             return ""
             
     return "".join(res[::-1])
+```
+
+
+### BFS Approach
+
+#### Algorithm
+```
+Initialize the graph using 
+a set of characters using words
+
+Like previous for each word if
+char is different add in graph
+
+calculate indegree
+initialize cnt = 0
+
+put all edges with indegree 0 
+in queue. And find topo sort
+```
+```bash
+TC: O(n*k)
+SC: O(n+k) ~> graph 
+    + O(k) ~> indegree
+    + O(k) ~> queue
+```
+#### Solution
+
+```python
+class Graph:
+    def __init__(self, words):
+        self.adj = {c: set() for w in words for c in w}
+        self.indegree = defaultdict(int)
+        
+    def add_edge(self, source, dest):
+        self.adj[source].add(dest)
+        
+    def calculate_indegree(self):
+        for source in self.adj:
+            self.indegree[source] += 0
+            for dest in self.adj[source]:
+                self.indegree[dest] += 1
+
+    def get_indegree(self, char):
+        return self.indegree[char]
+
+    def dec_indegree(self, char):
+        self.indegree[char] -= 1
+    
+    def get_neighbours(self, char):
+        return self.adj[char]
+    
+
+class Solution:
+    def findOrder(self, words, N, K):
+        graph = Graph(words)
+        
+        for i in range(len(words)-1):
+            w1, w2 = words[i], words[i+1]
+            min_len = min(len(w1), len(w2))
+            if len(w1) > len(w2) and w1[:min_len] == w2[:min_len]:
+                return ""
+            
+            for j in range(min_len):
+                if w1[j] != w2[j]:
+                    graph.add_edge(w1[j], w2[j])
+                    break
+            
+        graph.calculate_indegree()
+        
+        visited = set()
+        res = []
+        cnt = 0
+            
+        queue = deque([])
+        for char in graph.indegree:
+            if graph.get_indegree(char) == 0:
+                queue.append(char)
+                
+        while queue:
+            curr = queue.popleft()
+            res.append(curr)
+
+            for neighbour in graph.get_neighbours(curr):
+                if neighbour not in visited:
+                    graph.dec_indegree(neighbour)
+                    if graph.get_indegree(neighbour) == 0:
+                        queue.append(neighbour)
+                        visited.add(neighbour)
+            cnt += 1
+        
+        if cnt != K:
+            return ""
+
+        return "".join(res)
 ```

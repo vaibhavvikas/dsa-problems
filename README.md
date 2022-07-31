@@ -7,6 +7,7 @@
 
 **Dynamic Programming:** \
 [120. Triangle](./leetcode/dynamic_programming/120_triangle.md) \
+[122. Buy and Sell Stock II](./general/dynamic_programming/stocks/buy_sell_stocks_2.md) \
 [818. Car Problem](./leetcode/dynamic_programming/818_car_problem.md) \
 [1155. Number of ways to roll dice](./leetcode/dynamic_programming/1155_ways_to_roll_dice.md)
 
