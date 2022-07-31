@@ -17,6 +17,10 @@
 [6. Smallest Common Supersequence](./general/dynamic_programming/smallest_common_supersequence.md)
 
 
+### Trie
+[1. Trie Implementation](./general/trie/trie_implementation.md)
+
+
 ### Stack
 [1. Shorten Mathematical Expression](./general/stack/shorten_expr.md)
 
