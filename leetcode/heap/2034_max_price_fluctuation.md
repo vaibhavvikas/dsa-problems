@@ -3,7 +3,7 @@
 **Given:**
 
 Stream of records: [timestamp, price]
-Records are not in order and worse soem price may come wrong,
+Records are not in order and worse some price may come wrong,
 so at later we can get the same timestamp with different price.
 
 **Objective:**

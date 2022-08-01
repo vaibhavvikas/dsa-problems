@@ -2,12 +2,14 @@
 
 **Trees:** \
 [366. Remove Leaves](./leetcode/trees/366_remove_leaves.md) \
+[968. Binary Tree Cameras](./leetcode/trees/968_binary_tree_cameras.md) \
 [2096. Step Directions in binary tree](./leetcode/trees/2096_step_directions_from_bin_tree_node_to_another.md)
 
 
 **Dynamic Programming:** \
 [120. Triangle](./leetcode/dynamic_programming/120_triangle.md) \
 [122. Buy and Sell Stock II](./general/dynamic_programming/stocks/buy_sell_stocks_2.md) \
+[123. Buy and Sell Stock III](./general/dynamic_programming/stocks/buy_sell_stocks_3.md) \
 [818. Car Problem](./leetcode/dynamic_programming/818_car_problem.md) \
 [1155. Number of ways to roll dice](./leetcode/dynamic_programming/1155_ways_to_roll_dice.md)
 
@@ -16,6 +18,7 @@
 [127. Word Ladder](./leetcode/graphs/127_word_ladder.md) \
 [128. Word Ladder 2](./leetcode/bfs/140_word_break_ii.md) \
 [200. Number of Islands](./leetcode/graphs/200_number_of_islands.md) \
+[207. Course Schedule](./leetcode/graphs/207_course_schedule.md) \
 [695. Max Area of Island](./leetcode/graphs/695-max-area-of-island.md) \
 [1293. Shortest path grid obstacles](./leetcode/graphs/1293_shortest_path_grid_obstacles.md) \
 [1579. Remove edges](./leetcode/graphs/1579_remove_edges.md) \
