@@ -24,8 +24,10 @@ Step 3. If its equal to dest word return 0
 Step 4. On each level increment the steep by 1
 ```
 ```
-TC: O(n*m) ~> number of words * len of words
-SC: O(n*m) ~> graph + O(n) ~> visited + O(n) ~> queue
+m: Length of wordlist
+n: Length of a particualr word
+TC: O(m*n*n) ~> queeue * len of words * string compare
+SC: O(n*m) ~> graph + O(n) ~> visited + O(n) ~> queue 
 ```
 
 ### Solution

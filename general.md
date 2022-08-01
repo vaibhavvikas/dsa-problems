@@ -54,3 +54,6 @@
 [5. Detect Cycle in Directed Graph](./general/graphs/cycle_in_directed.md) \
 [6. Topological Sort](./general/graphs/topological_sort.md) \
 [7. Bipartite Graph](./general/graphs/bipartite_graph.md)
+
+### Miscellaneous
+[1. Add two numbers](./general/miscellaneous/add_numbers_bitwise.md)
