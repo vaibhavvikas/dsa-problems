@@ -17,3 +17,6 @@ platforms:
   - name: General
     icon: <i class="fa-solid fa-file-code"></i>
     link: https://vaibhavvikas.ml/dsa-problems/general.html
+  - name: SDE Sheet
+    icon: <i class="fa-solid fa-microchip"></i>
+    link: https://vaibhavvikas.ml/dsa-problems/sde-sheet.html
