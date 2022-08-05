@@ -81,5 +81,8 @@ Solutions to leetcode problems using Python
 ---
 
 ### Miscellaneous
+[12. Integer to Roman](./leetcode/miscellaneous/12_integer_to_roman.md) \
+[13. Roman to Integer](./leetcode/miscellaneous/13_roman_to_integer.md) \
+[36. Valid Sudoku](./leetcode/miscellaneous/36_valid_sudoku.md) \
 [126. LRU Cache](./leetcode/miscellaneous/126_lru_cache.md) \
 [460. LFU Cache](./leetcode/miscellaneous/460_lfu_cache.md)
