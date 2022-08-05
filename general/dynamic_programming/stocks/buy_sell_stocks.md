@@ -13,9 +13,9 @@ output: 5
 ```bash
 On each step we check 
 the min so far and
-calcualte the maxprofit
+calculate the maxprofit
 ```
-```
+```bash
 TC: O(n)
 SC: O(1)
 ```

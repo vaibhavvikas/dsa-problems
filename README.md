@@ -2,6 +2,15 @@
 
 Solutions to leetcode problems using Python
 
+### Arrays
+[53. Max Sum Subarray](./leetcode/arrays/53_max_sum_subarray.md) \
+[62. Grid Unique Paths](./sde-sheet/arrays3/grid_uniq_paths.md) \
+[287. Duplicate in Array](./leetcode/arrays/287_duplicate_in_array.md) \
+[229. Majority Element II](./leetcode/arrays/229_majority_gt_nby3.md)
+[493. Reverse Pairs](./leetcode/arrays/493_reverse_pairs.md)
+
+---
+
 ### Binary Search
 [4. Find median of two sorted arrays](./leetcode/binary_search/4_median_of_two_sorted_arrays.md)
 
@@ -64,7 +73,7 @@ Solutions to leetcode problems using Python
 [778. Swim in rising Water](./leetcode/heap/778_swim_in_rising_water.md) \
 [973, K Closest Point](./leetcode/heap/973_k_closest_point.md) \
 [1882. Process task using servers](./leetcode/heap/1882_process_task_using_servers.md) \
-[2034. Max price fluctuation](./leetcode/heap/2034_max_price_fluctuation.md) \
+[2034. Stock price fluctuation](./leetcode/heap/2034_stock_price_fluctuation.md) \
 [2050. Parallel Courses](./leetcode/heap/2050_parallel_courses_iii.md)
 
 ---
