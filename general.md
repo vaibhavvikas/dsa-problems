@@ -14,7 +14,8 @@
 
 **Stocks:** \
 [1. Buy and Sell Stock](./general/dynamic_programming/stocks/buy_sell.md) \
-[2. Buy and Sell Stocks 2](./general/dynamic_programming/stocks/buy_sell_stocks_2.md)
+[2. Buy and Sell Stocks 2](./general/dynamic_programming/stocks/buy_sell_stocks_2.md) \
+[3. Buy and Sell Stocks 3](./general/dynamic_programming/stocks/buy_sell_stocks_3.md)
 
 
 **DP on Subsequences:** \
