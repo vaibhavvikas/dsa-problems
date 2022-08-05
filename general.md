@@ -1,5 +1,10 @@
 ## General Problems
 
+
+### Arrays
+[1. Number of Inversions](./general/arrays/count_inversions.md)
+
+
 ### Dynamic Programming
 
 **Knapsack:** \

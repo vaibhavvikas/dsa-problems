@@ -3,7 +3,13 @@
 There is a rectangular brick wall in front of you with n rows of bricks.
 Draw a vertical line from the top to the bottom and cross the least bricks. 
 
+### Algorithm
+```
+TC: O(m*n)
+SC: O(m*n)
+```
 
+### Solution
 ```python
 def leastBricks(self, wall: List[List[int]]) -> int:
     bricks_edges = defaultdict(int)
