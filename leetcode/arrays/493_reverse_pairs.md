@@ -4,11 +4,34 @@ Given an integer array nums, return the number of reverse pairs in the array.
 A reverse pair is a pair (i, j) where 0 <= i < j < nums.length and nums[i] > 2 * nums[j].
 
 ### Merge Sort Algorithm:
-```
+```bash
 If at any point arr[i] <= 2*arr[j],
 we add 1  to the answer as this pair
 has a contribution to the answer.
 
+every part will be sorted,
+so we start i = 0 for left side
+and j = 0 for right side
+
+lets take
+12 19 25 40 and 2 6 9
+initial i = 0 and j = 0
+
+for each i we increment j 
+till arr[i] > 2*arr[j]
+
+and once the codintion fails we
+add the j current value to res
+
+i at 12, j at 2
+we incremnt j by 1
+add 1 to res
+
+now i at 19 we incremnt j and reach
+j at end i.e. for every number at i
+we have to add current j val to res
+```
+```bash
 TC: O(nlogn) + O(n) + O(n)
 SC: O(n)
 ```
