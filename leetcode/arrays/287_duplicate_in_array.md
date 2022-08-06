@@ -6,7 +6,7 @@ TC: O(n)
 SC: O(1)
 ```
 ```python
-def findDuplicate(self, nums: List[int]) -> int:
+def findDuplicate(nums):
     slow, fast = nums[0], nums[0]
     
     while True:
@@ -30,8 +30,9 @@ TC: O(n)
 SC: O(1)
 ```
 ```python
-def findDuplicate(self, nums: List[int]) -> int:
+def findDuplicate(nums):
     while nums[0] != nums[nums[0]]:
         nums[nums[0]], nums[0] = nums[0], nums[nums[0]]
     return nums[0]
 ```
+d

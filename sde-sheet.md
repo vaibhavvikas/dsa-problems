@@ -31,4 +31,13 @@ Source: [Striver's SDE Sheet](https://takeuforward.org/interviews/strivers-sde-s
 
 ## Arrays 4
 [1. Longest Consecutive Sequence](./leetcode/arrays/128_longest_consecutive_seq.md) \
+[2. Longest Subarray with 0 Sum](./sde-sheet/arrays4/longest_subarr_zero_sum.md) \
+[3. Longest Substring with non repeating characters](./sde-sheet/arrays4/longest_substring_without_repeat.md)
 
+
+## Linked List 1
+[1. Reverse Linked List](./sde-sheet/linked_list/reverse_linked_list.md) \
+[2. Middle of Linked List](./sde-sheet/linked_list/middle_of_linked_list.md) \
+[3. Merge Sorted Linked List](./sde-sheet/linked_list/merge_sorted_linked_list.md) \
+[4. Remove nth from end](./sde-sheet/linked_list/remove_nth_from_end.md) \
+[5. Delete a node](./sde-sheet/linked_list/delete_a_node.md)

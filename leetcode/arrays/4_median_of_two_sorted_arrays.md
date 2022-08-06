@@ -4,6 +4,10 @@ Given two sorted arrays nums1 and nums2 of size m and n respectively, return the
 
 ### Brute Force
 ```
+We create a third array of size m + n
+and add numbers there in sorted order
+```
+```
 TC: O(m+n)
 SC: O(m+n)
 ```
@@ -33,9 +37,7 @@ def findMedian(nums1, nums2):
         merged_arr[k] = nums2[j]
         j += 1
         k += 1
-    
-    print(merged_arr)
-    
+
     if len(merged_arr)%2 == 0:
         return (merged_arr[len(merged_arr)//2] + merged_arr[len(merged_arr)//2 - 1]) / 2
 
@@ -44,13 +46,30 @@ def findMedian(nums1, nums2):
 
 ### Binary Search Approach
 ```
+we take a partition element that implies
+how much elements we will have in one
+array
+
+we take in the longer array, adn make cuts
+in that which implies how many elements will
+be there in the partition
+
+we make the first cut equal to length of first
+array by 2 so the second array will have some elemnts
+based on the cut
+
+now we check l1 <= r2 and l2 <= r1 if this case is
+not saisifed than we need to move cuts accordingly.
+
+```
+```
 TC: O(log(m+n))
 SC: O(1)
 ```
 
 ### Solution
 ```python
-def findMedianSortedArrays(self, nums1, nums2):
+def findMedianSortedArrays(nums1, nums2):
     n1, n2 = len(nums1), len(nums2)
     
     if n2 < n1:
