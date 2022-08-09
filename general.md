@@ -65,8 +65,8 @@
 [4. Detect Cycle in Undirected Graph](./general/graphs/cycle_in_undiected.md) \
 [5. Detect Cycle in Directed Graph](./general/graphs/cycle_in_directed.md) \
 [6. Topological Sort](./general/graphs/topological_sort.md) \
-[7. Bipartite Graph](./general/graphs/bipartite_graph.md)
-
+[7. Bipartite Graph](./general/graphs/bipartite_graph.md) \
+[8. Union Find](./general/graphs/union_find.md)
 
 ### Miscellaneous
 [1. Add two numbers](./general/miscellaneous/add_numbers_bitwise.md)
