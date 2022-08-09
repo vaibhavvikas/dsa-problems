@@ -41,3 +41,7 @@ Source: [Striver's SDE Sheet](https://takeuforward.org/interviews/strivers-sde-s
 [3. Merge Sorted Linked List](./sde-sheet/linked_list/merge_sorted_linked_list.md) \
 [4. Remove nth from end](./sde-sheet/linked_list/remove_nth_from_end.md) \
 [5. Delete a node](./sde-sheet/linked_list/delete_a_node.md)
+
+## Linked List 2
+[1. Cycle in Linked List](./sde-sheet/linked_list_2/detect_cycle_in_linked_list.md) \
+[2. Intersection of Linked Lists](./sde-sheet/linked_list_2/intersection_of_linked_lists.md)
