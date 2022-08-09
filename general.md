@@ -54,6 +54,9 @@
 [6. Lowest Common Ancestor](./general/trees/lowest_common_ancestor.md) \
 [7. Min Time to Burn Binary Tree](./general/trees/min_time_to_burn_binary_tree.md)
 
+**DP on Trees:** \
+[1. Max Exp in an Org](./general/trees/max_experience_in_org.md)
+
 
 ### Graphs
 [1. Alien Dictionary](./general/graphs/alien_dictionary.md) \

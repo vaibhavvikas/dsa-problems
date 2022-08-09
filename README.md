@@ -3,7 +3,7 @@
 Solutions to leetcode problems using Python
 
 ### Arrays
-[4. Find median of two sorted arrays](./leetcode/arrays/4_median_of_two_sorted_arrays.md)
+[4. Find median of two sorted arrays](./leetcode/arrays/4_median_of_two_sorted_arrays.md) \
 [53. Max Sum Subarray](./leetcode/arrays/53_max_sum_subarray.md) \
 [62. Grid Unique Paths](./sde-sheet/arrays3/grid_uniq_paths.md) \
 [128. Longest Consecutive Sequence](./leetcode/arrays/128_longest_consecutive_seq.md) \
@@ -38,7 +38,7 @@ Solutions to leetcode problems using Python
 
 **General:** \
 [127. Word Ladder](./leetcode/graphs/127_word_ladder.md) \
-[128. Word Ladder 2](./leetcode/bfs/140_word_break_ii.md) \
+[128. Word Ladder 2](./leetcode/graphs/128_word_ladder_2.md) \
 [200. Number of Islands](./leetcode/graphs/200_number_of_islands.md) \
 [207. Course Schedule](./leetcode/graphs/207_course_schedule.md) \
 [695. Max Area of Island](./leetcode/graphs/695-max-area-of-island.md) \
