@@ -42,6 +42,25 @@ Source: [Striver's SDE Sheet](https://takeuforward.org/interviews/strivers-sde-s
 [4. Remove nth from end](./sde-sheet/linked_list/remove_nth_from_end.md) \
 [5. Delete a node](./sde-sheet/linked_list/delete_a_node.md)
 
+
 ## Linked List 2
 [1. Cycle in Linked List](./sde-sheet/linked_list_2/detect_cycle_in_linked_list.md) \
 [2. Intersection of Linked Lists](./sde-sheet/linked_list_2/intersection_of_linked_lists.md)
+
+
+## Linked List and Array
+[1. Clone Linked List with Random Pointer](./leetcode/linked_list/clone_with_random_pointer.md) \
+[2. 3 Sum](./leetcode/two_pointers/15_3sum.md) \
+[3. Trapping Rainwater](./leetcode/two_pointers/42_trapping_rain_water.md)
+
+
+## Greedy Algorithm
+[1. Max number of meetings](./sde-sheet/greedy_algorithm/max_number_meetings.md) \
+[2. Max Platforms](./sde-sheet/greedy_algorithm/max_platforms.md) \
+[3. Job Sequencing](./sde-sheet/greedy_algorithm/job_sequencing_problem.md)
+
+## Recursion
+[1. Print All Subsequences of a String](./sde-sheet/recursion/power_set_all_subseq_of_string.md) \
+[2. Palindrome Partitioning](./sde-sheet/recursion/palindrome_partitioning.md) \
+[3. Kth Permutation](./sde-sheet/recursion/kth_permutation.md)
+

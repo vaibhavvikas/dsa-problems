@@ -25,8 +25,8 @@ we get: 1 9 6 5 3 2 1
 
 And reverse all the numbers after that
 index
-1 9 6 5 + reverse(3 2 1)
-1 9 6 5 1 2 3 
+1 9 6 + reverse(5 3 2 1)
+1 9 6 1 2 3 5 
 
 ```
 ```bash
@@ -48,7 +48,6 @@ def next_permutation(arr):
     j = len(arr) - 1
 
     while j > i:
-        print(i, j)
         if arr[j] > arr[i]:
             arr[i], arr[j] = arr[j], arr[i]
             break

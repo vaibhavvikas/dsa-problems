@@ -5,8 +5,8 @@
 
 
 ### Heap
-[1. Min cost to combine Gold](./general/heap/min_sum_combine_gold_bar.md)
-
+[1. Min cost to combine Gold](./general/heap/min_sum_combine_gold_bar.md) \
+[2. Sort k-sorted Array](./general/heap/sort_nearly_sorted_array.md)
 
 ### Dynamic Programming
 
@@ -67,6 +67,7 @@
 [6. Topological Sort](./general/graphs/topological_sort.md) \
 [7. Bipartite Graph](./general/graphs/bipartite_graph.md) \
 [8. Union Find](./general/graphs/union_find.md)
+
 
 ### Miscellaneous
 [1. Add two numbers](./general/miscellaneous/add_numbers_bitwise.md)
