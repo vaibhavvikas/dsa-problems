@@ -30,7 +30,8 @@ Solutions to leetcode problems using Python
 [122. Buy and Sell Stock II](./general/dynamic_programming/stocks/buy_sell_stocks_2.md) \
 [123. Buy and Sell Stock III](./general/dynamic_programming/stocks/buy_sell_stocks_3.md) \
 [818. Car Problem](./leetcode/dynamic_programming/818_car_problem.md) \
-[1155. Number of ways to roll dice](./leetcode/dynamic_programming/1155_ways_to_roll_dice.md)
+[1155. Number of ways to roll dice](./leetcode/dynamic_programming/1155_ways_to_roll_dice.md) \
+[1277. Count Square Submatrices](./leetcode/dynamic_programming/1277_count_sq_submatrices.md)
 
 ---
 
@@ -50,14 +51,19 @@ Solutions to leetcode problems using Python
 
 
 **BFS:**\
+[130. Surrounded Regions](./leetcode/bfs/130_surrounded_by_regions.md) \
 [139. Word Break](./leetcode/bfs/139_word_break.md) \
 [140. Word Break II](./leetcode/bfs/140_word_break_ii.md) \
-[472. Concatenated Words](./leetcode/bfs/472_concatenated_words.md)
+[472. Concatenated Words](./leetcode/bfs/472_concatenated_words.md) \
+[1020. Number of enclaves](./leetcode/bfs/1020_number_of_enclaves.md) \
+[1091. Shortest Path binary matrix](./leetcode/bfs/1091_shortest_path_binary_matrix.md)
 
 
 **DFS:** \
 [79. Word Search](./leetcode/dfs/79_word_search.md)
 
+**Union Find:** \
+[721. Account Merge](./leetcode/union_find/721_account_merge.md)
 ---
 
 ### Hash table
@@ -77,6 +83,8 @@ Solutions to leetcode problems using Python
 ---
 
 ### Stack
+[84. Largest Rectangle Area in Histogram](./leetcode/stack/84_largest_rectangle_in_histogram.md) \
+[85. Maximal Rectangle](./leetcode/stack/85_maximal_rectangle.md) \
 [503. Next Greater Element](./leetcode/stack/503_next_greater_circular_array.md)
 
 ---

@@ -33,7 +33,10 @@ Source: [Striver's SDE Sheet](https://takeuforward.org/interviews/strivers-sde-s
 [1. Longest Consecutive Sequence](./leetcode/arrays/128_longest_consecutive_seq.md) \
 [2. Longest Subarray with 0 Sum](./sde-sheet/arrays4/longest_subarr_zero_sum.md) \
 [3. Longest Substring with non repeating characters](./sde-sheet/arrays4/longest_substring_without_repeat.md) \
-[4. Print Spiral Matrix](./sde-sheet/arrays4/print_spiral_matrix.md)
+[4. Print Spiral Matrix](./sde-sheet/arrays4/print_spiral_matrix.md) \
+[5. Max Subarray Product](./sde-sheet/arrays4/max_product.md)
+
+
 
 ## Linked List 1
 [1. Reverse Linked List](./sde-sheet/linked_list/reverse_linked_list.md) \
@@ -67,3 +70,6 @@ Source: [Striver's SDE Sheet](https://takeuforward.org/interviews/strivers-sde-s
 ## Recursion + Backtracking
 [1. Rat in a Maze](./sde-sheet/recursion_and_backtracking/rat_in_maze.md)
 
+
+## Dynamic Programming
+[1. Edit Distance](./general/dynamic_programming/subsequences/edit_distance.md) 

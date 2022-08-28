@@ -26,7 +26,8 @@
 [3. Longest Common Substring](./general/dynamic_programming/longest_common_substring.md) \
 [4. Longest Common Palindromic Subsequence](./general/dynamic_programming/longest_common_palindromic_subsequence.md) \
 [5. Min Insertions to make Palindromic](./general/dynamic_programming/min_insertions_to_make_string_pali.md) \
-[6. Smallest Common Supersequence](./general/dynamic_programming/smallest_common_supersequence.md)
+[6. Smallest Common Supersequence](./general/dynamic_programming/smallest_common_supersequence.md) \
+[7. Count Subset with target Sum](./general/dynamic_programming/subsequences/count_subsets_target_sum.md)
 
 
 ### Trie
