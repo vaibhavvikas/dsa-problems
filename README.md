@@ -62,8 +62,10 @@ Solutions to leetcode problems using Python
 **DFS:** \
 [79. Word Search](./leetcode/dfs/79_word_search.md)
 
+
 **Union Find:** \
 [721. Account Merge](./leetcode/union_find/721_account_merge.md)
+
 ---
 
 ### Hash table

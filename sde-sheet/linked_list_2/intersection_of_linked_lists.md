@@ -9,7 +9,7 @@ On the second traversal, they either
 hit or miss. 
 if they meet, pa or pb would be 
 the node we are looking for, 
-if they didn't meet, they will hit
+if they didnt meet, they will hit
 the end at the same iteration,
 pa == pb == None, return either,
 None

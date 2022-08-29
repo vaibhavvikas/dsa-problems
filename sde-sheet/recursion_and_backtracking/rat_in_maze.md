@@ -5,10 +5,10 @@ Consider a rat placed at (0, 0) in a square matrix of order N * N. It has to rea
 ```bash
 Example:
 N = 4
-m[][] = {{1, 0, 0, 0},
-         {1, 1, 0, 1}, 
-         {1, 1, 0, 0},
-         {0, 1, 1, 1}}
+m = [[1, 0, 0, 0],
+     [1, 1, 0, 1], 
+     [1, 1, 0, 0],
+     [0, 1, 1, 1]]
 Output:
 DDRDRR DRDDRR
 ```
