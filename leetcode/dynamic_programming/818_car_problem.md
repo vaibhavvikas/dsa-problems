@@ -23,25 +23,30 @@ and speed goes to 1 --> 2 --> 4 --> -1.
 **Objective:**
 Find minimum moves to reach the destination.
 
+### Dijkstra's Algorithm
+```
+TC: O(nlogn)
+SC: O(n)
+```
 ### Solution:
 
 ```python
 def racecar(target: int) -> int:
-    queue = deque([(0, 0, 1)])
+    pqueue = [(0, 0, 1)]
     
-    while queue:
-        moves, pos, vel = queue.popleft()
+    while pqueue:
+        moves, pos, vel = heapq.heappop(pqueue)
         
         if pos == target:
             return moves
         
         # Always move forward
-        queue.append((moves + 1, pos + vel, 2 * vel))
+        heapq.heappush(pqueue, (moves + 1, pos + vel, 2 * vel))
         
         # Backward only if car is ahead target, or you are
         # just in backward so you can simply hit backward
         # again to go pos
         if (pos + vel > target and vel > 0) or \
             (pos + vel < target and vel < 0):
-            queue.append((moves + 1, pos, -vel//abs(vel)))
+            heapq.heappush(pqueue, (moves + 1, pos, -vel//abs(vel)))
 ```
