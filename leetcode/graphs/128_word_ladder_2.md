@@ -32,15 +32,20 @@ def findLadders(beginWord: str, endWord: str, wordList):
     while queue:
         local_visited = set()
         for _ in range(len(queue)):
-            
             word, list_so_far = queue.popleft()
-            visited.add(word)
+
             for j in range(len(word)):
                 pattern = word[:j] + "_" + word[j+1:]
+                
                 for neighbour in combo[pattern]:
                     if neighbour == endWord:
                         res.append(list_so_far + [neighbour])
+                        continue
+
                     if neighbour not in visited:
                         queue.append((neighbour, list_so_far + [neighbour]))
+                        local_visited.add(neighbour)
+
+        visited = visited.union(local_visited)
     return res
 ```
