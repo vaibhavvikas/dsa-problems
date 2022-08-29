@@ -45,7 +45,6 @@ Solutions to leetcode problems using Python
 [695. Max Area of Island](./leetcode/graphs/695-max-area-of-island.md) \
 [994. Rotten Oranges](./leetcode/graphs/994_rotten_tomatoes.md) \
 [1293. Shortest path grid obstacles](./leetcode/graphs/1293_shortest_path_grid_obstacles.md) \
-[1579. Remove edges](./leetcode/graphs/1579_remove_edges.md) \
 [1631. Path with Min Effort](./leetcode/graphs/1631_path_min_effort.md) \
 [2115. All possible recipes](./leetcode/graphs/2115_all_possible_recipes.md)
 
@@ -64,8 +63,8 @@ Solutions to leetcode problems using Python
 
 
 **Union Find:** \
-[721. Account Merge](./leetcode/union_find/721_account_merge.md)
-
+[721. Account Merge](./leetcode/union_find/721_account_merge.md) \
+[1579. Remove edges](./leetcode/union_find/1579_remove_edges.md)
 ---
 
 ### Hash table
