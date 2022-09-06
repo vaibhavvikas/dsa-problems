@@ -30,3 +30,47 @@ def getIntersectionNode(self, headA, headB):
 
     return pa
 ```
+
+### Difference of length detailed method
+```
+TC: O(n)
+SC: O(1)
+```
+```python
+def getIntersectionNode(headA, headB): 
+    lengthA = 0
+    lengthB = 0 
+    
+    tempHeadA = headA 
+    tempHeadB = headB 
+    
+    while(tempHeadA != None):
+        lengthA += 1 
+        tempHeadA = tempHeadA.next 
+    
+    while(tempHeadB != None):
+        lengthB += 1 
+        tempHeadB = tempHeadB.next 
+    
+    if lengthA > lengthB:
+        extra = lengthA - lengthB 
+        
+        while(extra > 0):
+            headA = headA.next  
+            extra -= 1
+    else:
+        extra = lengthB - lengthA 
+        
+        while(extra > 0):
+            headB = headB.next 
+            extra -= 1
+    
+    while(headA != None and headB != None):
+        if(headA == headB):
+            return headA  
+        
+        headA = headA.next 
+        headB = headB.next
+
+    return None
+```

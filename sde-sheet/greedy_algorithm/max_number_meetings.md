@@ -13,8 +13,7 @@ N = 6
 start[] = {1,3,0,5,8,5}
 end[] =  {2,4,6,7,9,9}
 
-Output: 
-4
+Output: 4
 ```
 
 ### Approach
@@ -22,7 +21,7 @@ Output:
 First we create a meeting_arr
 
 Now we sort it based on the
-endd time and add the first
+end time and add the first
 meeting in a new list
 
 Now before adding any new
@@ -34,7 +33,6 @@ start time.
 TC: O(n) + O(nlogn) + O(n)
 SC: O(n) + O(n)
 ```
-
 
 ### Solution
 ```python

@@ -73,6 +73,5 @@ Source: [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-cour
 
 ---
 
-### Trees
-
-[1. Eventual Safe States](./sde-sheet/trees/medium/eventual_safe_states.md)
+### Graphs
+[1. Eventual Safe States](./sde-sheet/graphs/medium/eventual_safe_states.md)
