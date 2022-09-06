@@ -48,7 +48,6 @@ Solutions to leetcode problems using Python
 [1631. Path with Min Effort](./leetcode/graphs/1631_path_min_effort.md) \
 [2115. All possible recipes](./leetcode/graphs/2115_all_possible_recipes.md)
 
-
 **BFS:**\
 [130. Surrounded Regions](./leetcode/bfs/130_surrounded_by_regions.md) \
 [139. Word Break](./leetcode/bfs/139_word_break.md) \
@@ -57,14 +56,13 @@ Solutions to leetcode problems using Python
 [1020. Number of enclaves](./leetcode/bfs/1020_number_of_enclaves.md) \
 [1091. Shortest Path binary matrix](./leetcode/bfs/1091_shortest_path_binary_matrix.md)
 
-
 **DFS:** \
 [79. Word Search](./leetcode/dfs/79_word_search.md)
-
 
 **Union Find:** \
 [721. Account Merge](./leetcode/union_find/721_account_merge.md) \
 [1579. Remove edges](./leetcode/union_find/1579_remove_edges.md)
+
 ---
 
 ### Hash table

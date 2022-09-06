@@ -3,7 +3,7 @@
 Source: [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 
 
-## Arrays
+### Arrays
 
 **Easy:** \
 [1. Duplicate in Array](./leetcode/arrays/287_duplicate_in_array.md) \
@@ -37,7 +37,7 @@ Source: [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-cour
 
 ---
 
-## Linked List
+### Linked List
 
 **Medium:** \
 [1. Reverse Linked List](./sde-sheet/linked_list/reverse_linked_list.md) \
@@ -54,14 +54,14 @@ Source: [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-cour
 
 --- 
 
-## Greedy Algorithm
+### Greedy Algorithm
 [1. Max number of meetings](./sde-sheet/greedy_algorithm/max_number_meetings.md) \
 [2. Max Platforms](./sde-sheet/greedy_algorithm/max_platforms.md) \
 [3. Job Sequencing](./sde-sheet/greedy_algorithm/job_sequencing_problem.md)
 
 ---
 
-## Recursion
+### Recursion
 [1. Print All Subsequences of a String](./sde-sheet/recursion/power_set_all_subseq_of_string.md) \
 [2. Palindrome Partitioning](./sde-sheet/recursion/palindrome_partitioning.md) \
 [3. Kth Permutation](./sde-sheet/recursion/kth_permutation.md) \
@@ -69,5 +69,11 @@ Source: [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-cour
 
 ---
 
-## Dynamic Programming
+### Dynamic Programming
 [1. Edit Distance](./general/dynamic_programming/subsequences/edit_distance.md) 
+
+---
+
+### Trees
+
+[1. Eventual Safe States](./sde-sheet/trees/medium/eventual_safe_states.md)
