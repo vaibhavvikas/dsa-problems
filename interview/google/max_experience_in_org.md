@@ -37,6 +37,14 @@ that means we can take it or not take.
 
 Based on that, we can use the Dynamic Programming with each child
 
+```bash
+TC: O(h*h*2)
+SC: O(h*k*2)
+
+let "h" be the height and
+"k" be the max child no. of tree
+```
+
 ### Solution
 ```python
 from collections import defaultdict

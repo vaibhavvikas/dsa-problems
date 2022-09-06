@@ -1,8 +1,8 @@
 ## General Problems
 
 ### Arrays
-[1. Number of Inversions](./general/arrays/count_inversions.md)
-
+[1. Count Inversions](./general/arrays/count_inversions.md) \
+[2. Reverse Pairs](./leetcode/arrays/493_reverse_pairs.md)
 
 ### Heap
 [1. Min cost to combine Gold](./general/heap/min_sum_combine_gold_bar.md) \

@@ -43,9 +43,9 @@ Source: [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-cour
 [2. Middle of Linked List](./sde-sheet/linked_list/middle_of_linked_list.md) \
 [3. Merge Sorted Linked List](./sde-sheet/linked_list/merge_sorted_linked_list.md) \
 [4. Remove nth from end](./sde-sheet/linked_list/remove_nth_from_end.md) \
-[5. Delete a node](./sde-sheet/linked_list/delete_a_node.md)
-[6. Cycle in Linked List](./sde-sheet/linked_list_2/detect_cycle_in_linked_list.md) \
-[7. Intersection of Linked Lists](./sde-sheet/linked_list_2/intersection_of_linked_lists.md)
+[5. Delete a node](./sde-sheet/linked_list/delete_a_node.md) \
+[6. Cycle in Linked List](./sde-sheet/linked_list/detect_cycle_in_linked_list.md) \
+[7. Intersection of Linked Lists](./sde-sheet/linked_list/intersection_of_linked_lists.md)
 
 **Hard:** \
 [1. Clone Linked List with Random Pointer](./leetcode/linked_list/clone_with_random_pointer.md) \

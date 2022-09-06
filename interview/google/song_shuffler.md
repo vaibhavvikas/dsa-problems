@@ -1,9 +1,9 @@
 ## Song Shuffler
 
-Problem Statement:
+**Problem Statement:**
 Given a playlist of songs, you have to design a song shuffler.
-This song shuffler is not like the normal song shuffler that shuffles the complete playlist at the start and returns a shuffled list, but instead when asked for a next song to be played, returns a random song from the list of songs.
-The next random song to be played should satisfy a condition that the song was not played in the last 'k' turns.
+This song shuffler is not like the normal song shuffler that shuffles the complete playlist at the start and returns a shuffled list, but instead when asked for a next song to be played, returns a random song from the list of songs. \
+The next random song to be played should satisfy a condition that the song was not played in the last 'k' turns. \
 You have to make sure, that at each call, all the eligible (not played during last k turns) songs have equal probability of being played next.
 
 ```bash
@@ -25,8 +25,8 @@ We use the array for the song list.
 
 If anytime we choose a song
 we add it into the queue,
-adn replace the ind by the last
-element of array
+and replace the ind by the last
+element of songs array
 
 Any time if our queue length is gt 
 than k we pop and put it at the last
