@@ -12,7 +12,7 @@ include: [".htaccess", ".md"]
 
 platforms:
   - name: Leetcode
-    icon: <i class="fa-solid fa-user-secret"></i>
+    icon: <i class="fa-brands fa-codiepie"></i>
     link: https://vaibhavvikas.ml/dsa-problems/
   - name: General
     icon: <i class="fa-solid fa-file-code"></i>
@@ -20,3 +20,6 @@ platforms:
   - name: SDE Sheet
     icon: <i class="fa-solid fa-microchip"></i>
     link: https://vaibhavvikas.ml/dsa-problems/sde-sheet.html
+  - name: Interview
+    icon: <i class="fa-solid fa-user-secret"></i>
+    link: https://vaibhavvikas.ml/dsa-problems/interview.html
