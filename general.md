@@ -65,8 +65,12 @@
 [6. Topological Sort](./general/graphs/topological_sort.md) \
 [7. Bipartite Graph](./general/graphs/bipartite_graph.md) \
 [8. Prim's Algorithm](./general/graphs/prim_algorithm.md) \
-[9. Union Find](./general/graphs/union_find.md)
-
+[9. Union Find](./general/graphs/union_find.md) \
+[10. Kruskal's Algorithm](./general/graphs/kruskals_algo.md) \
+[11. Bridges in a Undirected Graph](./general/graphs/bridges_graph.md) \
+[12. Artiucaltion Point](./general/graphs/articulation_point.md) \
+[13. Kosaraju's Algorithm](./general/graphs/kosaraju.md) \
+[14. Bellman Ford's Algorithm](./general/graphs/bellman_ford.md)
 
 ### Miscellaneous
 [1. Add two numbers](./general/miscellaneous/add_numbers_bitwise.md)

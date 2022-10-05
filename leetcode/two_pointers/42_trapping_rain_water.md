@@ -2,6 +2,37 @@
 
 Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
 
+### Brute Force
+```bash
+Water level at an index is determined by
+the lower of max_left and max_right for any
+bar, i.e. essentially water trapped in bar i
+depends on min(max_left, right_left).
+```
+```bash
+TC: O(n**2)
+SC: O(1)
+```
+
+### Solution
+```python
+def trap(self, height: List[int]):
+    res, n = 0, len(height)
+    
+    for i in range(n-1):
+        lmax = height[i]
+        for j in range(i):
+            lmax = max(lmax, height[j])
+            
+        rmax = height[i]
+        
+        for j in range(i+1, n):
+            rmax = max(rmax, height[j])
+            
+        res += min(lmax, rmax) - height[i]
+        
+    return res
+```
 
 ### Two Pointer Approach
 

@@ -7,7 +7,7 @@ Print all the possible subsequences of the String
 On each step we have two options
 take or not take
 
-Once we reach the enf of index,
+Once we reach the end of index,
 we append the curr_string to res
 and break the recursion
 ```

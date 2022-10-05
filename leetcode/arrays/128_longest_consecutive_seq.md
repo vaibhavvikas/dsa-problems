@@ -1,4 +1,4 @@
-## Longest COnsecutive Seq in an Array
+## Longest Consecutive Seq in an Array
 
 **Problem Statement:** You are given an array of ‘N’ integers. You need to find the length of the longest sequence which contains the consecutive elements.
 
@@ -37,7 +37,7 @@ def longestConsecutive(nums):
                 num += 1
                 streak += 1
             
-            res  = max(res, streak)
+            res = max(res, streak)
 
     return res
 ```

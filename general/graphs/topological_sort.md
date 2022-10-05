@@ -1,5 +1,6 @@
 ## Topological Sort
 
+Topological sort of a graph is a linear ordering of its vetitces such that if there is an edge u -> v, then u always appears before v.
 
 ### Kahn's Algorithm
 ```
