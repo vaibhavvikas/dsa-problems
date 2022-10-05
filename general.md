@@ -68,7 +68,7 @@
 [9. Union Find](./general/graphs/union_find.md) \
 [10. Kruskal's Algorithm](./general/graphs/kruskals_algo.md) \
 [11. Bridges in a Undirected Graph](./general/graphs/bridges_graph.md) \
-[12. Artiucaltion Point](./general/graphs/articulation_point.md) \
+[12. Artiuculation Point](./general/graphs/articulation_point.md) \
 [13. Kosaraju's Algorithm](./general/graphs/kosaraju.md) \
 [14. Bellman Ford's Algorithm](./general/graphs/bellman_ford.md)
 
