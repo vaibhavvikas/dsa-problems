@@ -4,12 +4,14 @@ Solutions to leetcode problems using Python
 
 ### Arrays
 [4. Find median of two sorted arrays](./leetcode/arrays/4_median_of_two_sorted_arrays.md) \
+[33. Search in rotated sorted array](./leetcode/arrays/33_search_in_rotated_sorted_array.md) \
 [53. Max Sum Subarray](./leetcode/arrays/53_max_sum_subarray.md) \
 [62. Grid Unique Paths](./sde-sheet/arrays3/grid_uniq_paths.md) \
 [128. Longest Consecutive Sequence](./leetcode/arrays/128_longest_consecutive_seq.md) \
 [287. Duplicate in Array](./leetcode/arrays/287_duplicate_in_array.md) \
 [229. Majority Element II](./leetcode/arrays/229_majority_gt_nby3.md) \
-[493. Reverse Pairs](./leetcode/arrays/493_reverse_pairs.md)
+[493. Reverse Pairs](./leetcode/arrays/493_reverse_pairs.md) \
+[2439. Minimize Maximum of Array](./leetcode/arrays/2439_minimize_maximum_of_array.md)
 
 ---
 
@@ -66,6 +68,7 @@ Solutions to leetcode problems using Python
 ---
 
 ### Hash table
+[3. Longest Substring Without Repeating Characters](./leetcode/hash_table/3_longest_subsequence_wo_repeating_characters.md) \
 [30. Substring with concatenated words](./leetcode/hash_table/30_substring_with_concatenated_words.md) \
 [554. Brick Wall](./leetcode/hash_table/554_brick_wall.md)
 
