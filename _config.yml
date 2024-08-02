@@ -13,13 +13,13 @@ include: [".htaccess", ".md"]
 platforms:
   - name: Leetcode
     icon: <i class="fa-brands fa-codiepie"></i>
-    link: https://vaibhavvikas.ml/dsa-problems/
+    link: https://vaibhavvikas.github.io/dsa-problems/
   - name: General
     icon: <i class="fa-solid fa-file-code"></i>
-    link: https://vaibhavvikas.ml/dsa-problems/general.html
+    link: https://vaibhavvikas.github.io/dsa-problems/general.html
   - name: SDE Sheet
     icon: <i class="fa-solid fa-microchip"></i>
-    link: https://vaibhavvikas.ml/dsa-problems/sde-sheet.html
+    link: https://vaibhavvikas.github.io/dsa-problems/sde-sheet.html
   - name: Interview
     icon: <i class="fa-solid fa-user-secret"></i>
-    link: https://vaibhavvikas.ml/dsa-problems/interview.html
+    link: https://vaibhavvikas.github.io/dsa-problems/interview.html
